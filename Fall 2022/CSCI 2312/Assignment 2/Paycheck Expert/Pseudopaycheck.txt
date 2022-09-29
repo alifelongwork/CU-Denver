@@ -1,0 +1,61 @@
+Paycheck Expert PseudoCode
+
+Initialize variables
+	-Constants:
+		- Hourly Rate 
+		- Number of hours worked in a week 
+		- Weeks per year
+		- social sec withholding
+		- medicare withholding
+		- federal tax
+		- colorado state tax
+
+declare hourly rate 
+declare hours worked in a week
+declare retirement deduction for the week
+
+input hourly rate
+input hours worked in a week
+input retirement deduction for the week
+
+initialize overtime hours
+
+if hours worked in a week is greater than 40
+  overtime hours is regular hours - 40
+
+declare regular pay
+declare overtime pay
+
+calculate regular pay
+calculate overtime pay at 1.5x hourly rate
+
+initialize Weekly gross as the sum of regular pay and overtime pay
+
+Calculate deductions
+
+initialize social security deduction
+
+if annual gross pay is greater than 137,000 
+  social security deduction is the social security tax rate times 137000 divided by the weeks in a year
+else
+  social security deduction is the tax rate times the weekly gross
+  
+initialize medicare deductions as 1.45% times weekly gross pay
+
+initialize federal tax deduction
+
+if annual gross pay is less than the first tax bracket cap
+  then federal tax deduction is 10% times the weekly gross 
+  
+else if annual gross pay is less than or equal to the second tax bracket cap
+  then federal tax deduction is a base tax per week plus an additional 12% times the weekly gross less the first tax bracket cap per week
+
+else if annual gross pay is greater than the second tax bracket cap plus one
+  then the federal tax deduction is a base tax per week plus an additional 22% times the weekly gross less the second tax bracket cap per week
+  
+initialize CO state tax as 4.55% times the weekly gross
+
+initialize total deductions and add all the above deductions plus the weekly retirement contribution
+initialize net pay as the gross pay less the total deductions
+
+print gross pay, taxes, total deductions, and net pay
