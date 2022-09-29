@@ -1,0 +1,29 @@
+While the user wants to keep playing
+
+initialize random number from 0 to 999
+
+print enter a number between 0 and 999
+
+initialize user guess
+
+if the user guess is equal to the random number
+  print good job first try
+else
+  do
+    if guess greater than random number
+      print user guess is too high
+      store new number
+      increase try count
+      print new guess and try count
+    else if guess less than random number
+      print user guess is too low
+      store new number
+      increase try count
+      print new guess and try count
+    else 
+      user is no longer wrong
+  while user is wrong
+
+display correct answer and number of tries
+ask if want to play again
+play until user says no, which ends the overall loop
