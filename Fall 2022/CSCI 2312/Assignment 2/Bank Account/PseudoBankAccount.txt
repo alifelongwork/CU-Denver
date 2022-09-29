@@ -1,0 +1,13 @@
+User inputs initial deposit amount and annual interest rate
+generate a random number between 480 and 620 for monthly withdrawal
+Compute interest earned on amount remaining after withdrawal compounded monthly
+
+
+current balance = current balance - withdrawal
+interest = currentBalance * (1 + (interest rate / 12)) ^ (12 * t) - currentBalance
+currentBalance += interest;
+withdrawal = (randint() % (maxWith - minWith)) + minWith;
+months++;
+repeat until current balance <= 0
+
+Output bank statement
