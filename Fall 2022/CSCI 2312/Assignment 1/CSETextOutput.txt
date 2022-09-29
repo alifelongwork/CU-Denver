@@ -1,0 +1,13 @@
+[longaus@csci-gnode-04 PA1]$ uname -a
+Linux csci-gnode-04 3.10.0-862.3.2.el7.x86_64 #1 SMP Mon May 21 23:36:36 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+[longaus@csci-gnode-04 PA1]$ date
+Fri Aug 26 07:19:59 MDT 2022
+[longaus@csci-gnode-04 PA1]$ pwd
+/export/homes/longaus/PA1
+[longaus@csci-gnode-04 PA1]$ who
+longaus  pts/0        2022-08-26 07:18 (ucdencsegrid01.ucdenver.pvt)
+[longaus@csci-gnode-04 PA1]$ ./helloWorld
+Please enter your name: Austin
+Please enter today's weather [S]unny, [R]ainy, [W]indy: W
+Please enter today's day as a number [Sunday:0..Saturday:6]: 2
+Hello Austin! You may fly a kite on Tuesday.
