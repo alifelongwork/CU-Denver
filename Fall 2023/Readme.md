@@ -1,1 +1,1 @@
-Machine Learning
+Hub for Machine Learning Project Submission
